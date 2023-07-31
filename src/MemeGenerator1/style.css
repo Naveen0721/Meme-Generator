@@ -1,0 +1,60 @@
+body {
+    margin: 0; /* Remove default body margin for a clean layout */
+    padding: 0; /* Remove default body padding for a clean layout */
+  }
+.Heading{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 50px;
+    color: azure;
+    border-radius: 25px;
+    font-family: "Permanent Marker",cursive;
+    margin-bottom: 30px;
+    
+}
+.image
+{
+    height: 200px;
+    margin-right: 90px;
+}
+.forms{
+    display: inline;
+    margin-right: 10px;
+}
+
+.meme {
+    position: relative;
+   
+  }
+.toptext{
+    position: absolute;
+    left:50px;
+    top:20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Times New Roman";
+   
+
+}
+.bottomtext
+{
+    
+    position: absolute;
+    left:50px;
+    bottom:20px;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: "Times New Roman";
+    
+
+}
+.randomimage{
+    height:400px;
+    width: 600px;
+
+}
